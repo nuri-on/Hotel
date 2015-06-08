@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title></title>
+<link rel="stylesheet" href="../termProject/HotelReservationStyle.css"
+	type="text/css" media=all />
+</head>
+<script>
+	function clearTxt(txt) {
+		if (txt.defaultValue == txt.value) {
+			txt.value = "";
+		}
+	}
+	
+	function go() {
+		location.href=indexFrame2.html;
+
+	}
+</script>
+<body>
+
+	<div align="center">
+
+		<form name="form1" method="post" action="searchResult.jsp"
+			target="contents">
+			<table>
+				<tr>
+					<td><a href="indexFrame2.html" target="_parent"><img
+							src="../Image/mainlogo.png" width=50 onClick="go();"></a>&nbsp;&nbsp;&nbsp;</td>
+					<td><input type="text" name="search"
+						value="Please enter a location" size="40"
+						onFocus="clearTxt(form1.search)"> <input type="date"
+						name="date"></input> <input type=hidden name="action2"
+						value="list"> <input type="submit" name="submit"
+						value="Search" target="contents"></input></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

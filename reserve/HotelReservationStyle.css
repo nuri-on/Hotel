@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+* {
+	background-color:black;
+	color:white;
+	/*font-family:Georgia;*/
+}
+
+table {
+	border:none;
+}
+
+A:link {TEXT-DECORATION: none}
+A:visited {TEXT-DECORATION: none}
+A:hover {TEXT-DECORATION: underline }

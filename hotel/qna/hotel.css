@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+* { 
+	background-color: black; 
+	color:white;
+}
+
+table {
+	border:none;
+}
+
+/* input {
+	border: 0px;
+}
+ */

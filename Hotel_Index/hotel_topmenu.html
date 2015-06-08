@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../termProject/HotelReservationStyle.css" type="text/css" media=all />
+</head>
+<body>
+<form name="" method="post" action="../reserve/payment.jsp" target="contents">
+	<table width="100%">
+	<tr>
+		<td>
+			 &nbsp;&nbsp;&nbsp;<a href="indexFrame.html" target="_parent">LOG-OUT</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+			<a href="../mypage/mypage.jsp" target="contents">MY PAGE</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+			<a href="contact.html" target="contents">CONTACT</a>
+		</td>
+		<td align="right">
+			QUICK BOOK
+			<select name="quickRoom">
+				<option value="Single">single</option>
+				<option value="Double">double</option>
+				<option value="Suite">suite</option>
+			</select>
+			&nbsp;<img src="../Image/cal.png" width=13>&nbsp;<input type="date" name="startDate"></input> 
+			<input type="date" name="endDate"></input>
+			<input type="submit" name="" value="BOOK NOW"></input>
+		</td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
